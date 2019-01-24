@@ -14,11 +14,15 @@ function getMyName(): string {
 
 getMyName();
 
+let myMultiply: (num1: number, num2: number) => number; 
+
 function multiply(num1: number, num2: number): number {
     return num1 * num2;
 }
 
 multiply(2, 4);
+
+myMultiply = multiply;
 
 function sayHello(): void {
     console.log('Hello Santosh');
