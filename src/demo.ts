@@ -76,10 +76,21 @@ let myData: { name: string, age: number } = {
 //     a: 'Hello'
 // }
 
-let complexObject: {
+// type alias
+
+type Complex = {
     data: number[],
     output: (all: boolean) => number[]
-} = {
+};
+
+let complexObject: Complex = {
+    data: [1, 2, 3],
+    output: function(all: boolean) {
+        return this.data;
+    }
+}
+
+let complexObject2: Complex = {
     data: [1, 2, 3],
     output: function(all: boolean) {
         return this.data;
