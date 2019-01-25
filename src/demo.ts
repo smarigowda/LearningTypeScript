@@ -109,3 +109,8 @@ if (typeof finalValue == 'string') {
 } else {
     console.log('final value is not a string');
 }
+
+function neverReturns(): never {
+    throw new Error('never returns...');
+}
+
