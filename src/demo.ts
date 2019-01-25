@@ -75,3 +75,13 @@ let myData: { name: string, age: number } = {
 // myData = {
 //     a: 'Hello'
 // }
+
+let complexObject: {
+    data: number[],
+    output: (all: boolean) => number[]
+} = {
+    data: [1, 2, 3],
+    output: function(all: boolean) {
+        return this.data;
+    }
+}
