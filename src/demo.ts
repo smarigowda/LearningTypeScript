@@ -100,3 +100,12 @@ let complexObject2: Complex = {
 let myAge2: number | string = 27;
 let myAge3: number | string = '27';
 // let myAge4: number | string = true;
+
+let finalValue = 'A String';
+// let finalValue = 23;
+
+if (typeof finalValue == 'string') {
+    console.log('final value is a string');
+} else {
+    console.log('final value is not a string');
+}
