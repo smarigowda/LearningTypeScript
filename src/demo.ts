@@ -96,3 +96,7 @@ let complexObject2: Complex = {
         return this.data;
     }
 }
+
+let myAge2: number | string = 27;
+let myAge3: number | string = '27';
+// let myAge4: number | string = true;
