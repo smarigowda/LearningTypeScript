@@ -14,7 +14,7 @@ function getMyName(): string {
 
 getMyName();
 
-let myMultiply: (num1: number, num2: number) => number; 
+let myMultiply: (num1: number, num2: number) => number;
 
 function multiply(num1: number, num2: number): number {
     return num1 * num2;
@@ -64,3 +64,14 @@ let car: any = 'BMW';
 console.log(car);
 car = { model: 'BMW', series: 5 };
 console.log(car);
+
+
+let myData: { name: string, age: number } = {
+    name: 'Santosh Marigowda',
+    age: 50
+};
+
+// myData = {};
+// myData = {
+//     a: 'Hello'
+// }
